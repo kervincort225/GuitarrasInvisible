@@ -1,0 +1,243 @@
+
+
+body {
+font-family: 'Allerta', sans-serif;	
+margin:0;
+}
+
+
+footer{
+	background: #273b47;
+	padding: 36px;
+}
+
+
+table{
+	width: 100%;
+}
+th{
+	background: #273b47;
+	color: white;
+	margin-top: 50px;
+	padding: 10px;
+	text-align: left;
+}
+
+ td{
+	padding: 20px;
+}
+
+table, td, th{
+	border:  1px solid #273b47;
+	border-collapse: collapse;
+}
+
+.contenedor{
+	width: 800px;
+	margin:auto;
+}
+.button{
+	border-radius:26px;
+	border: none;
+	background: #8000FF;
+	color:white;
+	padding:10px 20px;
+	font-size: 20px;
+	background: linear-gradient(to left,#fe344e, #ff7250);
+	margin-top: 5px;
+	cursor: pointer;		
+}
+.contacto{
+	display: flex;
+	width:300px;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.contacto img{
+display: block;
+}
+
+.contacto strong{
+display: block;
+}
+
+.contacto a{ 
+	color:white; 
+	text-decoration:none; 
+	margin: 10px 10px 10px 0;
+	} 
+
+.contenedor-guitarra-a{
+margin-left:24px;
+ } 
+ .contenedor-guitarra-b{    
+  margin-left: 370px;
+padding:0px;
+position:relative;
+bottom: 90px
+}
+/*selectores de clases empiezan con puntos*/
+.titulo{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 70px;
+	margin-bottom:0;
+	margin-top: 70px;
+}
+
+.titulo span{
+	text-decoration: underline;
+}
+
+.title-a{
+	
+	padding-top: 20px;
+	font-size: 30px;
+	margin-top: 0;
+}
+.title-b{
+	font-size: 35px;
+	margin-bottom: 20px;
+}
+
+.guitarras{
+	color: #1f313c;
+	margin-bottom: 60px;
+
+}
+.guitarras h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size:35px ;
+}
+
+.guitarra{
+	margin:10px 10px 30px 10px;
+	padding: 10px;
+	border:solid 1px black;
+	border-radius: 8px;
+}
+
+.guitarra2{
+	margin:10px;
+	padding: 10px;
+	border:solid 1px black;
+	height: 197px;
+	border-radius: 8px;
+}
+
+.guitarra ol{
+	padding:0px;
+}
+
+.right{
+	float: right;
+	position: relative;
+    top: -155px;
+
+}
+
+.left{
+	float: left;
+	position: relative;
+}
+.portada {
+	background-image: url('../images/background.png');
+	color: white;
+	background-size:cover;
+	padding: 20px;
+
+}
+
+.portada button {
+margin-bottom: 70px;
+}
+
+/*--------------------manera 1 de hacer script en css*/
+.menu{
+	font-size: 24px;
+	display:inline-block;
+	position: absolute;
+    right: 0px;
+}
+
+
+.menu li{
+	display:inline-block;
+	margin-left: 30px;
+}
+
+.menu li:before{
+	content : '°';
+	font-size: 30px;
+	line-height: 20px;
+	color:white;
+}
+
+.menu a{
+	color: white;
+	text-decoration: none;
+}
+
+.logotipo{
+	display: inline-block;
+	margin-left: 0;
+}
+
+
+
+.header {
+position: relative;
+}
+
+.footer .contenedor{
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.formulario{
+	display: flex;
+	width: 484px;
+	color: white;
+}
+
+.col1, .col2{
+	display: flex;
+	flex-direction: column;
+}
+
+.col1{
+	margin-right: 15px;
+}
+
+.col2{
+	align-items: flex-start;
+}
+
+.intereses label{
+	font-size: 12px;
+}
+
+.formulario label, .sexo, .intereses{
+	margin-bottom: 10px;
+}
+
+.sexo{
+	margin-top: 10px;
+}
+
+
+.tabla{
+	margin:100px;
+}
+
+
+/*-----------------------manera 2 de hacer script en css*/
+
+/*.menu, .menu li, .logo{
+	display: inline-block;
+}*/
+
+
+/*selectores de id comienzan con #*/
+
+
